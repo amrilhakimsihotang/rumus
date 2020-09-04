@@ -71,7 +71,7 @@ case 3:
 printf("\nHitung luas lingkaran \n\n");
 printf("Masukkan jari-jari lingkaran(cm): ");
 scanf("%f",&r);
-printf("\Luas lingkaran adalah: %f",phi * r*r);
+printf("\nLuas lingkaran adalah: %f",phi * r*r);
 printf("\n\nLanjutkan?(Y/N): ");
     baca=getche();
     if(toupper(baca)=='Y'){
